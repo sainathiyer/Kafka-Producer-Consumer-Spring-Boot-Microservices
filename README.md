@@ -1,10 +1,10 @@
 # Kafka-Producer-Consumer-Spring-Boot-Microservices
 
 # Command to Start Kafka Server: 
-Cluster ID: <Generated UUID>
+Cluster ID: "Generated UUID"
 C:\kafka\bin>windows\kafka-storage.bat random-uuid
 
-.\bin\windows\kafka-storage.bat format --standalone -t <Generated UUID> -c config\server.properties
+.\bin\windows\kafka-storage.bat format --standalone -t "Generated UUID" -c config\server.properties
 
 # Start a Kafka Server
 .\bin\windows\kafka-server-start.bat .\config\server.properties
